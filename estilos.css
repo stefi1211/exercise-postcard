@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #2c2c2c;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+}
+
+.postal {
+    background-color: #fff;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 600px;
+    padding: 5px;
+    font-family: 'Handlee', cursive;
+}
+
+.contenedor-1 {
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-2 {
+    padding: 0px 10px;
+    display: flex;
+}
+
+.contenedor-3 {
+    padding: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.titulo h1 {
+    font-size: 36px;
+    color: #000000;
+}
+
+.formulario {
+    padding: 5px;
+}
+
+.imagen img {
+    width: 80px;
+    height: 80px;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="textarea"] {
+    width: 250px;
+    font-size: 22px;
+    margin: 7px 0px;
+    border: none;
+    color: rgb(143, 143, 143);
+    border-bottom: 2px solid rgb(184, 184, 184);
+    outline: none;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(201, 201, 201);
+    color: #000000;
+    padding: 5px 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    margin: 1px;
+    cursor: pointer;
+    font-family: 'Handlee', cursive;
+}
+
+button:hover {
+    background-color: rgb(175, 175, 175);
+}
